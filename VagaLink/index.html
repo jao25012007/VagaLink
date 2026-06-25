@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="imagens/VagaLink_Iccon.png">
+  <title>VagaLink – Encontre a vaga certa na hora certa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="cabecalho">
+    <div class="cabecalho-interno">
+
+    <a href="#hero" class="logo">
+    <img src="imagens/VagaLink.png" alt="Logo VagaLink" class="logo-icone">
+    <span class="logo-texto">Vaga<strong>Link</strong></span>
+    </a>
+
+      <button class="btn-menu" id="btnMenu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navegacao" id="navegacaoPrincipal">
+        <ul class="lista-nav">
+          <li><a href="#hero" class="link-nav">Início</a></li>
+          <li><a href="#como-funciona" class="link-nav">Como Funciona</a></li>
+          <li><a href="#beneficios" class="link-nav">Benefícios</a></li>
+          <li><a href="#contato"  class="link-nav">Contato</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-conteudo">
+      <span class="hero-badge">🚗 Plataforma de vagas urbanas</span>
+      <h1 class="hero-titulo">Encontre a vaga certa<br><span class="destaque">na hora certa</span></h1>
+      <p class="hero-subtitulo">Chega de voltas pelo quarteirão. Reserve vagas privadas por hora ou por dia e acesse com QR Code.</p>
+
+      <div class="hero-acoes">
+        <a href="#busca" class="btn btn-primario">Encontrar Vaga</a>
+        <a href="#como-funciona" class="btn btn-contorno">Como funciona?</a>
+      </div>
+
+      <div class="hero-estatisticas">
+        <div class="estatistica">
+          <span class="estat-numero">1.200+</span>
+          <span class="estat-legenda">vagas cadastradas</span>
+        </div>
+        <div class="estatistica">
+          <span class="estat-numero">8 cidades</span>
+          <span class="estat-legenda">disponíveis</span>
+        </div>
+        <div class="estatistica">
+          <span class="estat-numero">4.8 ⭐</span>
+          <span class="estat-legenda">avaliação média</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="card-mockup">
+
+        <div class="mockup-topo">
+          <span class="ponto vermelho"></span>
+          <span class="ponto amarelo"></span>
+          <span class="ponto verde"></span>
+          <span class="mockup-titulo-barra">Vaga disponível</span>
+        </div>
+
+        <div class="mockup-corpo">
+          <span class="mockup-pin">📍</span>
+          <div class="mockup-info">
+            <p class="mockup-nome">Garagem Central</p>
+            <p class="mockup-endereco">Rua das Flores, 142 – Centro</p>
+            <p class="mockup-preco">R$ 8 <span>/hora</span></p>
+          </div>
+          <span class="mockup-etiqueta">Disponível</span>
+        </div>
+
+        <div class="mockup-qr">
+          <div class="grade-qr"></div>
+          <p>Acesse com QR Code</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="secao-alt" id="problema">
+    <div class="container">
+      <div class="cabecalho-secao">
+        <span class="rotulo-secao">O problema</span>
+        <h2 class="titulo-secao">Estacionar virou um pesadelo urbano</h2>
+        <p class="desc-secao">Nas grandes cidades, o tempo perdido procurando vaga virou parte do dia a dia. O VagaLink existe para acabar com isso.</p>
+      </div>
+
+   
+      <div class="grade">
+        <div class="card texto-centro">
+          <span class="icone-card">⏱️</span>
+          <h3>Tempo perdido</h3>
+          <p>Motoristas gastam em média <strong>20 minutos</strong> por dia só procurando estacionamento.</p>
+        </div>
+        <div class="card texto-centro">
+          <span class="icone-card">😤</span>
+          <h3>Estresse no trânsito</h3>
+          <p>A busca por vagas aumenta o congestionamento e gera frustração desnecessária.</p>
+        </div>
+        <div class="card texto-centro">
+          <span class="icone-card">💸</span>
+          <h3>Custo elevado</h3>
+          <p>Estacionamentos centrais cobram preços altos sem garantia de vaga disponível.</p>
+        </div>
+        <div class="card texto-centro">
+          <span class="icone-card">🅿️</span>
+          <h3>Vagas ociosas</h3>
+          <p>Milhares de garagens ficam vazias enquanto motoristas circulam sem estacionar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="secao" id="como-funciona">
+    <div class="container">
+      <div class="cabecalho-secao">
+        <span class="rotulo-secao">Como funciona</span>
+        <h2 class="titulo-secao">Reserve em três passos simples</h2>
+        <p class="desc-secao">Do celular até a garagem em menos de dois minutos.</p>
+      </div>
+
+      <div class="grade-passos">
+
+        <div class="card passo">
+          <div class="numero-passo">01</div>
+          <div class="icone-passo">🔍</div>
+          <h3>Busque uma vaga</h3>
+          <p>Informe cidade, bairro e data. O sistema mostra as vagas disponíveis próximas a você.</p>
+        </div>
+
+        <span class="seta-passo" aria-hidden="true">→</span>
+
+        <div class="card passo">
+          <div class="numero-passo">02</div>
+          <div class="icone-passo">📱</div>
+          <h3>Reserve online</h3>
+          <p>Escolha a vaga, defina o período e confirme. Rápido e seguro.</p>
+        </div>
+
+        <span class="seta-passo" aria-hidden="true">→</span>
+
+        <div class="card passo">
+          <div class="numero-passo">03</div>
+          <div class="icone-passo">📲</div>
+          <h3>Acesse com QR Code</h3>
+          <p>Receba um QR Code no celular, apresente na entrada e estacione.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÃO -->
+  <section class="secao" id="solucao">
+    <div class="container">
+      <div class="solucao-interno">
+
+        <div class="solucao-imagem">
+          <img src="imagens/vagalink-app-mockup.png" alt="Tela do aplicativo VagaLink mostrando vagas próximas no mapa e botão de reserva" class="imagem-solucao">
+        </div>
+
+        <div class="solucao-conteudo">
+          <span class="rotulo-secao">Tecnologia</span>
+          <h2 class="titulo-secao">Encontre vagas em segundos</h2>
+          <p>O VagaLink localiza, em tempo real, as vagas disponíveis mais próximas de você direto no mapa. Escolha o local ideal, reserve em poucos cliques e acesse a garagem apresentando um QR Code exclusivo, com confirmação instantânea e total segurança em cada etapa.</p>
+
+          <div class="grade-recursos">
+            <div class="card item-beneficio">
+              <span class="icone-beneficio">📍</span>
+              <div>
+                <h4>Localização Inteligente</h4>
+                <p>Encontre vagas próximas automaticamente.</p>
+              </div>
+            </div>
+            <div class="card item-beneficio">
+              <span class="icone-beneficio">⚡</span>
+              <div>
+                <h4>Reserva Instantânea</h4>
+                <p>Reserve em poucos segundos.</p>
+              </div>
+            </div>
+            <div class="card item-beneficio">
+              <span class="icone-beneficio">🔒</span>
+              <div>
+                <h4>Acesso Seguro</h4>
+                <p>Entrada utilizando QR Code.</p>
+              </div>
+            </div>
+            <div class="card item-beneficio">
+              <span class="icone-beneficio">⭐</span>
+              <div>
+                <h4>Avaliações Reais</h4>
+                <p>Escolha vagas bem avaliadas por outros usuários.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="secao-alt" id="beneficios">
+    <div class="container">
+      <div class="cabecalho-secao">
+        <span class="rotulo-secao">Benefícios</span>
+        <h2 class="titulo-secao">Por que usar o VagaLink?</h2>
+      </div>
+
+      <div class="grade-2col">
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">⚡</span>
+          <div>
+            <h4>Reserva rápida</h4>
+            <p>Reserve em menos de 2 minutos pelo celular ou computador.</p>
+          </div>
+        </div>
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">🕐</span>
+          <div>
+            <h4>Economia de tempo</h4>
+            <p>Chega ao local e vai direto para o que importa, sem dar voltas.</p>
+          </div>
+        </div>
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">🔒</span>
+          <div>
+            <h4>Segurança</h4>
+            <p>Vagas verificadas e avaliadas pela comunidade de usuários.</p>
+          </div>
+        </div>
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">📍</span>
+          <div>
+            <h4>Localização estratégica</h4>
+            <p>Vagas próximas ao seu destino, não a quilômetros de distância.</p>
+          </div>
+        </div>
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">💰</span>
+          <div>
+            <h4>Preço justo</h4>
+            <p>Valores abaixo dos estacionamentos comerciais convencionais.</p>
+          </div>
+        </div>
+        <div class="card item-beneficio">
+          <span class="icone-beneficio">📅</span>
+          <div>
+            <h4>Flexibilidade total</h4>
+            <p>Reserve por hora ou por dia, sem taxas surpresa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSCA DE VAGAS -->
+  <section class="secao" id="busca">
+    <div class="container">
+      <div class="cabecalho-secao">
+        <span class="rotulo-secao">Simulação de busca</span>
+        <h2 class="titulo-secao">Encontre uma vaga agora</h2>
+        <p class="desc-secao">Preencha os campos e veja as vagas disponíveis na sua região.</p>
+      </div>
+
+      <div class="caixa-busca">
+        <div class="formulario-busca">
+
+          <div class="campo">
+            <label for="cidade">Cidade</label>
+            <select id="cidade">
+              <option value="">Selecione a cidade</option>
+              <option>Maringá</option>
+              <option>Curitiba</option>
+              <option>São Paulo</option>
+              <option>Londrina</option>
+              <option>Campo Grande</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" placeholder="Ex: Centro, Zona 7..." />
+          </div>
+
+          <div class="campo">
+            <label for="data">Data</label>
+            <input type="date" id="data" />
+          </div>
+
+          <button class="btn btn-primario" id="btnBuscar">🔍 Buscar Vagas</button>
+
+        </div>
+
+        <div class="resultados" id="resultados">
+          <p class="placeholder-resultado">Os resultados aparecerão aqui após a busca.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVALIAÇÕES -->
+  <section class="secao-alt" id="avaliacoes">
+    <div class="container">
+      <div class="cabecalho-secao">
+        <span class="rotulo-secao">Avaliações</span>
+        <h2 class="titulo-secao">O que dizem nossos usuários</h2>
+      </div>
+
+      <div class="grade">
+        <div class="card avaliacao">
+          <div class="estrelas">⭐⭐⭐⭐⭐</div>
+          <p class="texto-avaliacao">"Trabalho no centro e sempre sofria pra achar vaga. Agora reservo de casa antes de sair. Nunca mais cheguei atrasado!"</p>
+          <div class="autor">
+            <div class="avatar">RL</div>
+            <div>
+              <p class="nome-autor">Rafael Lima</p>
+              <p class="info-autor">Analista de TI · Maringá</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card avaliacao">
+          <div class="estrelas">⭐⭐⭐⭐⭐</div>
+          <p class="texto-avaliacao">"Uso toda semana pra ir à faculdade. O QR Code é muito prático e o preço é bem mais em conta que os estacionamentos da região."</p>
+          <div class="autor">
+            <div class="avatar">CS</div>
+            <div>
+              <p class="nome-autor">Camila Santos</p>
+              <p class="info-autor">Estudante de Direito · Curitiba</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card avaliacao">
+          <div class="estrelas">⭐⭐⭐⭐⭐</div>
+          <p class="texto-avaliacao">"Coloquei minha garagem na plataforma e já estou gerando renda extra todo mês. Super fácil de gerenciar!"</p>
+          <div class="autor">
+            <div class="avatar">MC</div>
+            <div>
+              <p class="nome-autor">Marcos Costa</p>
+              <p class="info-autor">Proprietário de vaga · São Paulo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="secao" id="contato">
+    <div class="container">
+      <div class="contato-interno">
+
+        <div class="contato-info">
+          <span class="rotulo-secao">Fale conosco</span>
+          <h2 class="titulo-secao">Alguma dúvida?</h2>
+          <p>Quer cadastrar sua vaga, fazer parcerias ou tirar alguma dúvida? Manda uma mensagem!</p>
+          <ul class="lista-contato">
+            <li>📧 contato@vagalink.com.br</li>
+            <li>📞 (44) 3333-0000</li>
+            <li>📍 Maringá, Paraná – Brasil</li>
+          </ul>
+        </div>
+
+        <form class="formulario-contato" id="formContato">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome completo" required />
+          </div>
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+          </div>
+          <div class="msg-sucesso" id="formSucesso">✅ Mensagem enviada com sucesso!</div>
+          <button type="submit" class="btn btn-primario">Enviar Mensagem</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-interno">
+
+        <a href="#hero" class="logo">
+        <img src="imagens/VagaLink.png" alt="Logo VagaLink" class="logo-icone">
+        <span class="logo-texto">Vaga<strong>Link</strong></span>
+        </a>
+
+        <p class="desc-rodape">Conectando motoristas a vagas privadas de forma simples e rápida.</p>
+
+        <nav class="nav-rodape">
+          <a href="#hero">Início</a>
+          <a href="#como-funciona">Como Funciona</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <p class="direitos">© <span id="anoAtual"></span> VagaLink – Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
